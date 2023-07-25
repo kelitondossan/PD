@@ -1,0 +1,445 @@
+.body{
+margin: 0;
+
+ display: flex;
+ flex-direction: column;
+
+}
+    
+
+html{
+  
+}
+.container{
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-image: linear-gradient(#FF631E, #193266);
+    padding-bottom: 3%;
+}
+@font-face {
+    font-family: MinhaFonte; /* Escolha um nome para a fonte */
+    src: url(font/Bebas-Regular.otf) format('otf'), /* Melhor compatibilidade */
+         url(font/Bebas-Regular.ttf) format('ttf'); /* Fallback para navegadores mais antigos CORES: #FF631E,#193266*/
+  }
+.TItulo-principal{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 1%;
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+
+.btn{
+    padding-bottom: 1%;
+    text-align: center;
+}
+.btn button{
+    color: aliceblue;
+    background-color: #193266;
+    width: 40vw;
+    height: 8vw;
+    font-size: xx-large;
+    font-family: 'Bebas Neue Regular';
+    font-weight: 600;
+    border: white;
+    border: 1px solid white; 
+    
+}
+
+.btn :hover{
+    cursor: grab;
+    color: aquamarine;
+    background-color: beige;
+    font-style: italic;
+   
+}
+
+.PG1{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.PG1 img{
+    width:900px;
+    border: 1px solid white; 
+}
+
+.grafico{
+    text-align: center;
+    padding-top: 40px;
+}
+.grafico img{
+    width: 990px;
+
+}
+
+.TL{
+  font-family:  'Bebas Neue Regular';
+    color: white;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+
+}
+
+
+.TL p{
+    font-family:  'Segoe UI', Verdana, sans-serif;
+    letter-spacing: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    font-style:  inherit;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    line-height: 30px;
+    font-weight: 100;
+    
+}
+.TL p{
+    width: 70vw;
+}
+
+.img3{
+    text-align: center;
+    
+    
+}
+
+.img3 img{
+    border: 1px solid white; 
+    width: 700px;
+}
+
+
+.TL2{
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+
+
+.TL2 p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    font-style:  inherit;
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+.TL2 p{
+    width: 70vw;
+}
+
+.TL3{
+    font-family: 'Bebas Neue Regular';
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.TL3 img{
+    
+}
+
+
+.h31{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content:  center;
+align-items: center;
+    text-align: center;
+    font-size: 1.0rem;
+    
+
+}
+
+.h31{
+    font-family: 'Bebas Neue Regular' , sans-serif;
+    color: white;
+    font-size: 1.9rem;
+}
+
+.LT h6{
+display: flex;
+padding-left: 7vw;
+line-height: 4px;
+font-size: 1.2rem;
+color: white;
+font-family: 'Bebas Neue Regular' , sans-serif;
+}
+
+
+.LT p{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+   padding-left: 6rem;
+   justify-items: center;
+   justify-content: center;
+    margin-top: 10px;
+    font-size: 1.0rem;
+    line-height: 20px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+
+.btn2{
+    padding-bottom: 1%;
+    padding-top: 26px;
+    text-align: center;
+}
+.btn2 button{
+    color: aliceblue;
+    background-color: #f1631e;
+    width: 40vw;
+    height: 6vw;
+    font-size: xx-large;
+    font-family: 'Bebas Neue Regular';
+    font-weight: 600;
+}
+
+.btn2 :hover{
+    cursor: grab;
+    color: aquamarine;
+    background-color: beige;
+    font-style: italic;
+   
+}
+
+.bt3{
+
+}
+
+
+.conteudo3{
+    background-image: url("img/Background\ 03\ laranja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.traco{
+    text-align: center;
+}
+
+.traco button{
+    text-align: center;
+    width: 700px;
+    height: 11px;
+    border: none;
+    border-radius: 5px;
+    background: aliceblue;
+}
+.h2{
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    text-align: center;
+    color:white;
+    font-size: 3.5rem;
+}
+
+.tb-PRECO{
+    text-align: center;
+}
+.tb-PRECO img{
+    height: 200px;
+    width: 600px;
+}
+
+.PgRegulamneto{
+text-align: center;
+color: aliceblue;    
+
+}
+
+.Pg-conteudo3{
+    
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+.Pg-conteudo3 p{
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-size: 2.5rem;
+}
+.Pg-conteudo3 {
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.span{
+
+font-weight: 800;
+    
+}
+.Pg-conteudo3 h4 , h3{
+    
+    font-size: 2.4rem;
+    padding-top: 20px;
+
+}
+.Pg-conteudo3 h4{
+    margin-bottom: 1px;
+}
+
+.Pg-conteudo3 h3{
+    margin-top: -1rem;
+}
+
+.Pg-conteudo3 p{
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+
+}
+
+.btn3{
+    padding-bottom: 6%;
+    text-align: center;
+    padding-top: 6%;
+}
+.btn3 button{
+    color: aliceblue;
+    background-color: #193266;
+    width: 40vw;
+    height: 8vw;
+    font-size: xx-large;
+    font-family: 'Bebas Neue Regular';
+    font-weight: 600;
+    border: white;
+    border: 1px solid white; 
+    
+}
+
+.btn3 :hover{
+    cursor: grab;
+    color: aquamarine;
+    background-color: beige;
+    font-style: italic;
+   
+}
+
+/* Restante do seu CSS aqui ... */
+
+/* Estilizando as imagens lado a lado */
+.IMGs-selos {
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content:  space-between;
+    padding-top: 65px;
+}
+
+.selo {
+    text-align: center;
+    width: 290px; /* Ajuste a largura das imagens e parágrafos conforme necessário */
+    margin: 10px; /* Adicione uma margem entre as imagens */
+}
+
+.selo img {
+    width: 100%; /* A imagem ocupará todo o espaço disponível na div .selo */
+}
+
+.selo p {
+    font-size: 1.2rem;
+    color: #f3efef;
+    margin-top: 10px; /* Adicione uma margem para separar os parágrafos das imagens */
+}
+
+.fim img{
+   width: 100%;
+
+}
+
+/* Estilos para telas com largura máxima de 600px (dispositivos móveis) */
+@media (max-width: 600px) {
+    .btn button, .btn2 button {
+        width: 90vw;
+        height: 40vw;
+        font-size: 1.5rem;
+        background-color: #193266;
+        
+    }
+    .selo {
+        width: 80vw; /* Ajuste a largura das divs .selo para dispositivos móveis */
+    }
+
+    .selo img {
+        width: 100%; /* Ajuste a largura das imagens para dispositivos móveis */
+    }
+}
+    .TL p, .TL2 p, .LT p {
+        width: 90vw;
+        font-size: 1.2rem;
+    }
+
+    .PG1 img {
+        width: 80vw;
+    }
+
+    .grafico img {
+        width: 90vw;
+    }
+
+    .img3 img {
+        width: 50vw;
+    }
+
+    .TL3 img {
+        width: 48rem;
+    }
+
+
+/* Estilos para telas com largura máxima de 1200px (tablets e telas maiores) */
+@media (max-width: 1200px) {
+    .btn button, .btn2 button {
+        width: 60vw;
+        height: 8vw;
+        font-size: 1.8rem;
+    }
+
+    .TL p, .TL2 p, .LT p {
+        width: 80vw;
+        font-size: 1.4rem;
+    }
+
+    .PG1 img {
+        width: 70vw;
+    }
+
+    .grafico img {
+        width: 80vw;
+    }
+
+    .img3 img {
+        width: 60vw;
+    }
+
+    .TL3 img {
+        width: 80vw;
+    }
+}
