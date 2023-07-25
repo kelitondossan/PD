@@ -482,6 +482,14 @@ h3 {
             height: 29vw;
         }
     
+
+
+        .traco button{
+            width: 300px;
+           height: 11px;
+       }
+         
+
     .TL p, .TL2 p, .LT p {
         width: 80vw;
         font-size: 1.4rem;
@@ -505,13 +513,7 @@ h3 {
   }
 
 
-  @media (max-width: 497px)  and (max-width: 580px){
-    .container {
-        max-width:100%;
-       
-    }
-
-  }
+  
 
 
   
