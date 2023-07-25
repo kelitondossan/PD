@@ -507,6 +507,11 @@ h3 {
          
     }
  
+    .TL h6{
+        padding-left: 2vw;
+        line-height: 4px;
+        font-size: 1rem;
+    }
   }
   
   /* // Medium devices (tablets, 768px and up) */
@@ -522,7 +527,7 @@ h3 {
    @media (min-width: 1105px) and (max-width: 1095px){
     .btn button, .btn2 button {
         width: 60vw;
-        height: 10vw;
+        height: 20vw;
         font-size: 3rem;
     }
    } 
@@ -530,7 +535,7 @@ h3 {
   @media (min-width: 992px) and (max-width: 1199px) {
     .btn button, .btn2 button {
         width: 60vw;
-        height: 10vw;
+        height: 20vw;
         font-size: 3rem;
     }
    }
