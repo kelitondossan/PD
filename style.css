@@ -3,7 +3,7 @@ margin: 0;
 
  display: flex;
  flex-direction: column;
-
+max-width: 100%;
 }
     
 
@@ -105,7 +105,7 @@ html{
 }
 
 .TL p {
-    width: 70vw;
+    width: 30vw;
 }
 
 .img3 {
@@ -509,7 +509,7 @@ h3 {
  
     .TL h6{
         padding-left: 2vw;
-        line-height: 4px;
+        line-height: 1px;
         font-size: 1rem;
     }
   }
