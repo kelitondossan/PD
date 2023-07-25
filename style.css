@@ -472,8 +472,8 @@ h3 {
     }
 
     .container {
-        max-width: 100%;
-        max-height: 100%;
+        max-width:600%;
+       
     }
 
 
@@ -503,6 +503,17 @@ h3 {
         width: 80vw;
     }
   }
+
+
+  @media (max-width: 497px)  and (max-width: 580px){
+    .container {
+        max-width:100%;
+       
+    }
+
+  }
+
+
   
   @media (min-width: 576.01px) and (max-width: 767.99px){ 
     .btn2 button {
