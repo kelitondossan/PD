@@ -1,578 +1,554 @@
-.body{
-margin: 0;
+.body {
+  margin: 0;
 
- display: flex;
- flex-direction: column;
-max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 }
-    
 
-html{
-  
+html {
 }
 /* Estilos gerais */
 
 .container {
-    max-width: 100%;
-    max-height: 100%;
-    background-size: cover;
-    background-image: linear-gradient(#FF631E, #193266);
-    padding-bottom: 3%;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  background-image: linear-gradient(#ff631e, #193266);
+  padding-bottom: 3%;
 }
 
 @font-face {
-    font-family: MinhaFonte;
-    src: url(font/Bebas-Regular.otf) format('otf'),
-         url(font/Bebas-Regular.ttf) format('ttf');
+  font-family: MinhaFonte;
+  src: url(font/Bebas-Regular.otf) format("otf"),
+    url(font/Bebas-Regular.ttf) format("ttf");
 }
 
 .TItulo-principal {
-    color: aliceblue;
-    text-align: center;
-    padding-bottom: 1%;
-    font-size: 2.5rem;
-    padding-top: 3rem;
+  color: aliceblue;
+  text-align: center;
+  padding-bottom: 1%;
+  font-size: 2.5rem;
+  padding-top: 3rem;
 }
 
 .btn {
-    padding-bottom: 1%;
-    text-align: center;
-}
-
-.btn button {
-    color: aliceblue;
-    background-color: #193266;
-    width: 40vw;
-    height: 8vw;
-    font-size: 4vw;
-    font-family: 'Bebas Neue Regular', sans-serif;
-    font-weight: 600;
-    border: 1px solid white;
-}
-
-.btn :hover {
-    cursor: grab;
-    color: aquamarine;
-    background-color: beige;
-    font-style: italic;
+  padding-bottom: 1%;
+  text-align: center;
 }
 
 .PG1 {
-    padding-top: 40px;
-    text-align: center;
+  padding-top: 40px;
+  text-align: center;
 }
 
 .PG1 img {
-    width: 100%;
-    border: 1px solid white;
+  width: 100%;
+  border: 1px solid white;
 }
 
 .grafico {
-    text-align: center;
-    padding-top: 40px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .grafico img {
-    width: 100%;
+  width: 100%;
 }
 
 .TL {
-    font-family: 'Bebas Neue Regular', sans-serif;
-    color: white;
-    padding-top: 56px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 600;
+  font-family: "Bebas Neue Regular", sans-serif;
+  color: white;
+  padding-top: 56px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 .TL p {
-    font-family: 'Segoe UI', Verdana, sans-serif;
-    letter-spacing: -1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    align-self: center;
-    font-style: inherit;
-    text-align: justify;
-    margin-top: 10px;
-    font-size: 1.8rem;
-    line-height: 30px;
-    font-weight: 100;
+  font-family: "Segoe UI", Verdana, sans-serif;
+  letter-spacing: -1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  font-style: inherit;
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 1.8rem;
+  line-height: 30px;
+  font-weight: 100;
 }
 
 .TL p {
-    width: 30vw;
+  width: 30vw;
 }
 
 .img3 {
-    text-align: center;
+  text-align: center;
 }
 
 .img3 img {
-    border: 1px solid white;
-    width: 700px;
+  border: 1px solid white;
+  width: 700px;
 }
 
 .TL2 {
-    padding-top: 45px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 1.8rem;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.8rem;
 }
 
 .TL2 p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    align-self: center;
-    font-style: inherit;
-    text-align: justify;
-    margin-top: 10px;
-    font-size: 1.5rem;
-    line-height: 30px;
-    font-weight: 100;
-    color: white;
-    font-family: 'Segoe UI', Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  font-style: inherit;
+  text-align: justify;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  line-height: 30px;
+  font-weight: 100;
+  color: white;
+  font-family: "Segoe UI", Verdana, sans-serif;
 }
 
 .TL2 p {
-    width: 70vw;
+  width: 70vw;
 }
 
 .TL3 {
-    font-family: 'Bebas Neue Regular';
-    text-align: center;
-    padding-bottom: 4rem;
+  font-family: "Bebas Neue Regular";
+  text-align: center;
 }
 
 .TL3 img {
-    width: 100%;
+  width: 100%;
 }
 
 .h31 {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.0rem;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
 }
 
 .h31 {
-    font-family: 'Bebas Neue Regular', sans-serif;
-    color: white;
-    font-size: 1.9rem;
+  font-family: "Bebas Neue Regular", sans-serif;
+  color: white;
+  font-size: 1.9rem;
 }
 
 .LT h6 {
-    display: flex;
-    padding-left: 7vw;
-    line-height: 4px;
-    font-size: 1.2rem;
-    color: white;
-    font-family: 'Bebas Neue Regular', sans-serif;
+  display: flex;
+  font-size: 1.2rem;
+  margin: 0;
+  color: white;
+  font-family: "Bebas Neue Regular", sans-serif;
 }
 
 .LT p {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    padding-left: 2rem;
-    justify-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    font-size: 1.0rem;
-    line-height: 20px;
-    font-weight: 100;
-    font-family: 'Segoe UI', Verdana, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 100;
+  font-family: "Segoe UI", Verdana, sans-serif;
 }
 
 .btn2 {
-    padding-bottom: 1%;
-    padding-top: 26px;
-    text-align: center;
+  padding-bottom: 1%;
+  padding-top: 26px;
+  text-align: center;
+}
+
+li {
+    color #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .btn2 button {
-    color: aliceblue;
-    background-color: #f1631e;
-    width: 40vw;
-    height: 6vw;
-    font-size: xx-large;
-    font-family: 'Bebas Neue Regular';
-    font-weight: 600;
+  color: aliceblue;
+  background-color: #f1631e;
+  width: 40vw;
+  height: 6vw;
+  font-size: xx-large;
+  font-family: "Bebas Neue Regular";
+  font-weight: 600;
 }
 
 .btn2 :hover {
-    cursor: grab;
-    color: aquamarine;
-    background-color: beige;
-    font-style: italic;
+  cursor: pointer;
+  color: aquamarine;
+  background-color: beige;
+  font-style: italic;
 }
 
-.bt3 {}
-
 .conteudo3 {
-    background-image: url("img/Background\ 03\ laranja.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: rgb(255, 123, 10);
+  background: radial-gradient(
+    circle,
+    rgba(255, 123, 10, 1) 0%,
+    rgba(255, 92, 20, 1) 100%
+  );
 }
 
 .traco {
-    text-align: center;
+  text-align: center;
 }
 
 .traco button {
-    text-align: center;
-    width: 700px;
-    height: 11px;
-    border: none;
-    border-radius: 5px;
-    background: aliceblue;
+  text-align: center;
+  width: 700px;
+  height: 11px;
+  border: none;
+  border-radius: 5px;
+  background: aliceblue;
 }
 
 .h2 {
-    font-family: 'Segoe UI', Verdana, sans-serif;
-    text-align: center;
-    color: white;
-    font-size: 3.5rem;
+  font-family: "Segoe UI", Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
 }
 
 .tb-PRECO {
-    text-align: center;
+  text-align: center;
 }
 
 .tb-PRECO img {
-    height: 200px;
-    width: 600px;
+  height: 200px;
+  width: 600px;
 }
 
 .PgRegulamneto {
-    text-align: center;
-    color: aliceblue;
+  text-align: center;
+  color: aliceblue;
 }
 
 .Pg-conteudo3 {
-    padding-top: 40px;
-    text-align: center;
-    color: white;
+  padding-top: 40px;
+  text-align: center;
+  color: white;
 }
 
 .Pg-conteudo3 p {
-    font-family: 'Segoe UI', Verdana, sans-serif;
-    font-size: 2.5rem;
+  font-family: "Segoe UI", Verdana, sans-serif;
+  font-size: 2.5rem;
 }
 
 .Pg-conteudo3 {
-    color: white;
-    font-weight: 600;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .span {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .Pg-conteudo3 h4,
 h3 {
-    font-size: 2.4rem;
-    padding-top: 20px;
+  font-size: 2.4rem;
+  padding-top: 20px;
 }
 
 .Pg-conteudo3 h4 {
-    margin-bottom: 1px;
+  margin-bottom: 1px;
 }
 
 .Pg-conteudo3 h3 {
-    margin-top: -1rem;
+  margin-top: -1rem;
 }
 
 .Pg-conteudo3 p {
-    font-family: 'Segoe UI', Verdana, sans-serif;
-    font-weight: 400;
-    font-size: 3rem;
+  font-family: "Segoe UI", Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
 }
 
 .btn3 {
-    padding-bottom: 6%;
-    text-align: center;
-    padding-top: 6%;
+  padding-bottom: 6%;
+  text-align: center;
+  padding-top: 6%;
 }
 
 .btn3 button {
-    color: aliceblue;
-    background-color: #193266;
-    width: 40vw;
-    height: 8vw;
-    font-size: xx-large;
-    font-family: 'Bebas Neue Regular';
-    font-weight: 600;
-    border: white;
-    border: 1px solid white;
+  color: aliceblue;
+  background-color: #193266;
+  width: 40vw;
+  height: 8vw;
+  font-size: xx-large;
+  font-family: "Bebas Neue Regular";
+  font-weight: 600;
+  border: white;
+  border: 1px solid white;
+  filter: brightness(0.9);
+  transition: 0.3s all ease-in;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
 }
 
 .btn3 :hover {
-    cursor: grab;
-    color: aquamarine;
-    background-color: beige;
-    font-style: italic;
+  cursor: pointer;
+  filter: brightness(1);
+  transform: scale(1.02);
 }
 
 /* Restante do seu CSS aqui ... */
 
 /* Estilizando as imagens lado a lado */
 .IMGs-selos {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-between;
-    padding-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 65px;
 }
 
 .selo {
-    text-align: center;
-    width: 290px; /* Ajuste a largura das imagens e parágrafos conforme necessário */
-    margin: 10px; /* Adicione uma margem entre as imagens */
+  text-align: center;
+  width: 290px; /* Ajuste a largura das imagens e parágrafos conforme necessário */
+  margin: 10px; /* Adicione uma margem entre as imagens */
 }
 
 .selo img {
-    width: 100%; /* A imagem ocupará todo o espaço disponível na div .selo */
+  width: 100%; /* A imagem ocupará todo o espaço disponível na div .selo */
 }
 
 .selo p {
-    font-size: 1.2rem;
-    color: #f3efef;
-    margin-top: 10px; /* Adicione uma margem para separar os parágrafos das imagens */
+  font-size: 1.2rem;
+  color: #f3efef;
+  margin-top: 10px; /* Adicione uma margem para separar os parágrafos das imagens */
 }
 
 .fim img {
-   width: 100%;
+  width: 100%;
 }
 
 /* Estilos para telas com largura máxima de 600px (dispositivos móveis) */
 @media (max-width: 600px) {
-    .btn button, .btn2 button {
-        width: 90vw;
-        height: 60vw;
-        font-size: 1.5rem;
-    
-         
-    }
-    .btn3 button {
-        width: 40vw;
-        height: 20vw;
-    }
+  .btn button,
+  .btn2 button {
+    width: 90vw;
+    height: 60vw;
+    font-size: 1.5rem;
+  }
+  .btn3 button {
+    width: 40vw;
+    height: 20vw;
+  }
 
-.traco button{
-     width: 300px;
+  .traco button {
+    width: 300px;
     height: 11px;
+  }
+
+  .selo {
+    width: 80vw; /* Ajuste a largura das divs .selo para dispositivos móveis */
+  }
+
+  .selo img {
+    width: 100%; /* Ajuste a largura das imagens para dispositivos móveis */
+  }
 }
-   
-   
-
-    .selo {
-        width: 80vw; /* Ajuste a largura das divs .selo para dispositivos móveis */
-    }
-
-    .selo img {
-        width: 100%; /* Ajuste a largura das imagens para dispositivos móveis */
-    }
+.TL p,
+.TL2 p,
+.LT p {
+  font-size: 1.2rem;
 }
-    .TL p, .TL2 p, .LT p {
-        width: 90vw;
-        font-size: 1.2rem;
-    }
 
-    .PG1 img {
-        width: 80vw;
-    }
+.PG1 img {
+  width: 80vw;
+}
 
-    .grafico img {
-        width: 90vw;
-    }
+.grafico img {
+  width: 90vw;
+}
 
-    .img3 img {
-        width: 50vw;
-    }
+.img3 img {
+  width: 50vw;
+}
 
-    .TL3 img {
-        width: 48rem;
-    }
-    .Pg-conteudo3 p {
-        font-family: 'Segoe UI', Verdana, sans-serif;
-        font-size: 1.8rem;
-    }
+.TL3 img {
+  width: 48rem;
+}
+.Pg-conteudo3 p {
+  font-family: "Segoe UI", Verdana, sans-serif;
+  font-size: 1.8rem;
+}
 
 /* Estilos para telas com largura máxima de 1200px (tablets e telas maiores) */
 @media (max-width: 1200px) {
-    .btn button, .btn2 button {
-        width: 60vw;
-        height: 18vw;
-        font-size: 1.8rem;
-    }
+  .btn button,
+  .btn2 button {
+    width: 60vw;
+    height: 18vw;
+    font-size: 1.8rem;
+  }
 
+  .btn3 button {
+    width: 45vw;
+    height: 20vw;
+  }
 
-    .btn3 button {
-        width: 45vw;
-        height: 20vw;
-    }
-
-.traco button{
-     width: 500px;
+  .traco button {
+    width: 500px;
     height: 11px;
-}
-   
+  }
 
-    .TL p, .TL2 p, .LT p {
-        width: 80vw;
-        font-size: 1.4rem;
-    }
+  .TL p,
+  .TL2 p,
+  .LT p {
+    font-size: 1.4rem;
+  }
 
-    .PG1 img {
-        width: 70vw;
-    }
+  .PG1 img {
+    width: 70vw;
+  }
 
-    .grafico img {
-        width: 80vw;
-    }
+  .grafico img {
+    width: 80vw;
+  }
 
-    .img3 img {
-        width: 60vw;
-    }
+  .img3 img {
+    width: 60vw;
+  }
 
-    .TL3 img {
-        width: 80vw;
-    }
+  .TL3 img {
+    width: 80vw;
+  }
 
-    .Pg-conteudo3 p {
-        font-family: 'Segoe UI', Verdana, sans-serif;
-        font-size: 2.5rem;
-    }
+  .Pg-conteudo3 p {
+    font-family: "Segoe UI", Verdana, sans-serif;
+    font-size: 2.5rem;
+  }
 }
 
 /* 
 // Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px)  and (max-width: 767.99px){ 
-  
-    .btn button, .btn2 button  {
-        width: 90vw;
-        height: 20vw;
-        font-size: 1.5rem;
-       
-         
-    }
-
-    .container {
-        max-width:600%;
-       
-    }
-
-
-        .btn3 button {
-            width: 40vw;
-            height: 29vw;
-        }
-    
-
-
-        .traco button{
-            width: 300px;
-           height: 11px;
-       }
-         
-
-    .TL p, .TL2 p, .LT p {
-        width: 80vw;
-        font-size: 1.4rem;
-    }
-
-    .PG1 img {
-        width: 70vw;
-    }
-
-    .grafico img {
-        width: 80vw;
-    }
-
-    .img3 img {
-        width: 60vw;
-    }
-
-    .TL3 img {
-        width: 80vw;
-    }
+@media (max-width: 576px) and (max-width: 767.99px) {
+  .btn button,
+  .btn2 button {
+    width: 90vw;
+    height: 20vw;
+    font-size: 1.5rem;
   }
 
-
-  
-
-
-  
-  @media (min-width: 576.01px) and (max-width: 767.99px){ 
-    .btn2 button {
-        width: 50vw;
-        height: 10vw;
-        font-size: 1.5rem;
-       
-         
-    }
- 
-    .TL h6{
-        padding-left: 2vw;
-        line-height: 1px;
-        font-size: 1rem;
-    }
+  .container {
+    max-width: 600%;
   }
-  
-  /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) and (max-width: 991.99px){ 
-  
-    .btn button, .btn2 button {
-        width: 60vw;
-        height: 19vw;
-        font-size: 3rem;
-    }
-   }
-  
-   @media (min-width: 1105px) and (max-width: 1095px){
-    .btn button, .btn2 button {
-        width: 60vw;
-        height: 20vw;
-        font-size: 3rem;
-    }
-   } 
-  /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .btn button, .btn2 button {
-        width: 60vw;
-        height: 20vw;
-        font-size: 3rem;
-    }
-   }
-  
-  /* // X-Large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) and (max-width: 1399px) { 
-    .btn button, .btn2 button {
-        width: 60vw;
-        height: 10vw;
-        font-size: 3rem;
-    }
+
+  .btn3 button {
+    width: 40vw;
+    height: 29vw;
   }
-  
-  /* // XX-Large devices (larger desktops, 1400px and up) */
-  @media (min-width: 1400px) { 
-    .btn button, .btn2 button {
-        width: 60vw;
-        height: 10vw;
-        font-size: 3rem;
-    }
+
+  .traco button {
+    width: 300px;
+    height: 11px;
   }
+
+  .TL p,
+  .TL2 p,
+  .LT p {
+    font-size: 1.4rem;
+  }
+
+  .PG1 img {
+    width: 70vw;
+  }
+
+  .grafico img {
+    width: 80vw;
+  }
+
+  .img3 img {
+    width: 60vw;
+  }
+
+  .TL3 img {
+    width: 80vw;
+  }
+}
+
+@media (min-width: 576.01px) and (max-width: 767.99px) {
+  .btn2 button {
+    width: 50vw;
+    height: 10vw;
+    font-size: 1.5rem;
+  }
+
+  .TL h6 {
+    padding-left: 2vw;
+    line-height: 1px;
+    font-size: 1rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .btn button,
+  .btn2 button {
+    width: 60vw;
+    height: 19vw;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1105px) and (max-width: 1095px) {
+  .btn button,
+  .btn2 button {
+    width: 60vw;
+    height: 20vw;
+    font-size: 3rem;
+  }
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btn button,
+  .btn2 button {
+    width: 60vw;
+    height: 20vw;
+    font-size: 3rem;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .btn button,
+  .btn2 button {
+    width: 60vw;
+    height: 10vw;
+    font-size: 3rem;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .btn button,
+  .btn2 button {
+    width: 60vw;
+    height: 10vw;
+    font-size: 3rem;
+  }
+}
