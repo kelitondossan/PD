@@ -109,6 +109,17 @@ html {
   border: 1px solid white;
   width: 54rem;
   height: 10rem;
+  filter: brightness(0.9);
+  transition: 0.3s all ease-in;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.45);
+
+}
+
+
+.img3 :hover {
+  cursor: pointer;
+  filter: brightness(1);
+  transform: scale(1.02);
 }
 
 .TL2 {
