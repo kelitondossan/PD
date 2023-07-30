@@ -808,3 +808,38 @@ padding-left: 3rem;
     padding: 1rem;
 }
 }
+
+@media  (max-width: 368px){
+ .TB-preco img{
+  width: 18rem ;
+ }
+ .grafico img{
+    width: 20rem;
+  }
+
+
+}
+
+@media  (max-width: 360px) and (max-width:740px){
+  .grafico img{
+    width: 20rem;
+  }
+
+  .TB-preco img{
+    width: 20rem;
+  }
+
+  .TItulo-principal{
+    font-size: 1.4rem;
+  }
+  .selo img{
+    width: 9rem;
+  }
+  .selo p{
+    font-size: 1rem;
+  }
+
+ .img5 img{
+    width: 11rem;
+  }
+}
